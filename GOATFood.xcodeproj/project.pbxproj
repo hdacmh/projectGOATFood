@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20A0C3662CA53C0800AD8D69 /* CountryPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 20A0C3652CA53C0800AD8D69 /* CountryPicker */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2087F8D62CA50F37008B0AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2087F8BD2CA50F35008B0AFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2087F8C42CA50F35008B0AFC;
+			remoteInfo = GOATFood;
+		};
+		2087F8E02CA50F37008B0AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2087F8BD2CA50F35008B0AFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2087F8C42CA50F35008B0AFC;
+			remoteInfo = GOATFood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2087F8C52CA50F35008B0AFC /* GOATFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOATFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2087F8D52CA50F37008B0AFC /* GOATFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GOATFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2087F8DF2CA50F37008B0AFC /* GOATFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GOATFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2087F8FC2CA50F83008B0AFC /* Exceptions for "GOATFood" folder in "GOATFood" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2087F8C42CA50F35008B0AFC /* GOATFood */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2087F8C72CA50F35008B0AFC /* GOATFood */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2087F8FC2CA50F83008B0AFC /* Exceptions for "GOATFood" folder in "GOATFood" target */,
+			);
+			path = GOATFood;
+			sourceTree = "<group>";
+		};
+		2087F8D82CA50F37008B0AFC /* GOATFoodTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GOATFoodTests;
+			sourceTree = "<group>";
+		};
+		2087F8E22CA50F37008B0AFC /* GOATFoodUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GOATFoodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2087F8C22CA50F35008B0AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20A0C3662CA53C0800AD8D69 /* CountryPicker in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2087F8D22CA50F37008B0AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2087F8DC2CA50F37008B0AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2087F8BC2CA50F35008B0AFC = {
+			isa = PBXGroup;
+			children = (
+				2087F8C72CA50F35008B0AFC /* GOATFood */,
+				2087F8D82CA50F37008B0AFC /* GOATFoodTests */,
+				2087F8E22CA50F37008B0AFC /* GOATFoodUITests */,
+				2087F8C62CA50F35008B0AFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2087F8C62CA50F35008B0AFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2087F8C52CA50F35008B0AFC /* GOATFood.app */,
+				2087F8D52CA50F37008B0AFC /* GOATFoodTests.xctest */,
+				2087F8DF2CA50F37008B0AFC /* GOATFoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2087F8C42CA50F35008B0AFC /* GOATFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2087F8E92CA50F37008B0AFC /* Build configuration list for PBXNativeTarget "GOATFood" */;
+			buildPhases = (
+				2087F8C12CA50F35008B0AFC /* Sources */,
+				2087F8C22CA50F35008B0AFC /* Frameworks */,
+				2087F8C32CA50F35008B0AFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2087F8C72CA50F35008B0AFC /* GOATFood */,
+			);
+			name = GOATFood;
+			packageProductDependencies = (
+				20A0C3652CA53C0800AD8D69 /* CountryPicker */,
+			);
+			productName = GOATFood;
+			productReference = 2087F8C52CA50F35008B0AFC /* GOATFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2087F8D42CA50F37008B0AFC /* GOATFoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2087F8EC2CA50F37008B0AFC /* Build configuration list for PBXNativeTarget "GOATFoodTests" */;
+			buildPhases = (
+				2087F8D12CA50F37008B0AFC /* Sources */,
+				2087F8D22CA50F37008B0AFC /* Frameworks */,
+				2087F8D32CA50F37008B0AFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2087F8D72CA50F37008B0AFC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2087F8D82CA50F37008B0AFC /* GOATFoodTests */,
+			);
+			name = GOATFoodTests;
+			packageProductDependencies = (
+			);
+			productName = GOATFoodTests;
+			productReference = 2087F8D52CA50F37008B0AFC /* GOATFoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2087F8DE2CA50F37008B0AFC /* GOATFoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2087F8EF2CA50F37008B0AFC /* Build configuration list for PBXNativeTarget "GOATFoodUITests" */;
+			buildPhases = (
+				2087F8DB2CA50F37008B0AFC /* Sources */,
+				2087F8DC2CA50F37008B0AFC /* Frameworks */,
+				2087F8DD2CA50F37008B0AFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2087F8E12CA50F37008B0AFC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2087F8E22CA50F37008B0AFC /* GOATFoodUITests */,
+			);
+			name = GOATFoodUITests;
+			packageProductDependencies = (
+			);
+			productName = GOATFoodUITests;
+			productReference = 2087F8DF2CA50F37008B0AFC /* GOATFoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2087F8BD2CA50F35008B0AFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					2087F8C42CA50F35008B0AFC = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					2087F8D42CA50F37008B0AFC = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 2087F8C42CA50F35008B0AFC;
+					};
+					2087F8DE2CA50F37008B0AFC = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 2087F8C42CA50F35008B0AFC;
+					};
+				};
+			};
+			buildConfigurationList = 2087F8C02CA50F35008B0AFC /* Build configuration list for PBXProject "GOATFood" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2087F8BC2CA50F35008B0AFC;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				20A0C3622CA5378F00AD8D69 /* XCRemoteSwiftPackageReference "CountryPicker" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2087F8C62CA50F35008B0AFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2087F8C42CA50F35008B0AFC /* GOATFood */,
+				2087F8D42CA50F37008B0AFC /* GOATFoodTests */,
+				2087F8DE2CA50F37008B0AFC /* GOATFoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2087F8C32CA50F35008B0AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2087F8D32CA50F37008B0AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2087F8DD2CA50F37008B0AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2087F8C12CA50F35008B0AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2087F8D12CA50F37008B0AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2087F8DB2CA50F37008B0AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2087F8D72CA50F37008B0AFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2087F8C42CA50F35008B0AFC /* GOATFood */;
+			targetProxy = 2087F8D62CA50F37008B0AFC /* PBXContainerItemProxy */;
+		};
+		2087F8E12CA50F37008B0AFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2087F8C42CA50F35008B0AFC /* GOATFood */;
+			targetProxy = 2087F8E02CA50F37008B0AFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2087F8E72CA50F37008B0AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2087F8E82CA50F37008B0AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2087F8EA2CA50F37008B0AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GOATFood/Preview Content\"";
+				DEVELOPMENT_TEAM = VG4394Z853;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GOATFood/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdacmh.GOATFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2087F8EB2CA50F37008B0AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GOATFood/Preview Content\"";
+				DEVELOPMENT_TEAM = VG4394Z853;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GOATFood/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdacmh.GOATFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2087F8ED2CA50F37008B0AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VG4394Z853;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdacmh.GOATFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOATFood.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GOATFood";
+			};
+			name = Debug;
+		};
+		2087F8EE2CA50F37008B0AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VG4394Z853;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdacmh.GOATFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOATFood.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GOATFood";
+			};
+			name = Release;
+		};
+		2087F8F02CA50F37008B0AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VG4394Z853;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdacmh.GOATFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GOATFood;
+			};
+			name = Debug;
+		};
+		2087F8F12CA50F37008B0AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VG4394Z853;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdacmh.GOATFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GOATFood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2087F8C02CA50F35008B0AFC /* Build configuration list for PBXProject "GOATFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2087F8E72CA50F37008B0AFC /* Debug */,
+				2087F8E82CA50F37008B0AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2087F8E92CA50F37008B0AFC /* Build configuration list for PBXNativeTarget "GOATFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2087F8EA2CA50F37008B0AFC /* Debug */,
+				2087F8EB2CA50F37008B0AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2087F8EC2CA50F37008B0AFC /* Build configuration list for PBXNativeTarget "GOATFoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2087F8ED2CA50F37008B0AFC /* Debug */,
+				2087F8EE2CA50F37008B0AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2087F8EF2CA50F37008B0AFC /* Build configuration list for PBXNativeTarget "GOATFoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2087F8F02CA50F37008B0AFC /* Debug */,
+				2087F8F12CA50F37008B0AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		20A0C3622CA5378F00AD8D69 /* XCRemoteSwiftPackageReference "CountryPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mobven/CountryPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		20A0C3652CA53C0800AD8D69 /* CountryPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20A0C3622CA5378F00AD8D69 /* XCRemoteSwiftPackageReference "CountryPicker" */;
+			productName = CountryPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2087F8BD2CA50F35008B0AFC /* Project object */;
+}
